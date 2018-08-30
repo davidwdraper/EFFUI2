@@ -1,0 +1,16 @@
+Look at using Sketch for drawing and creating icons
+Look at Google Material Design
+If using code, create 4 static properties for BrandColor, BrandColorLight, BrandColorDark and Hilight
+
+Fonts (use single font):
+Andriod: use Roboto
+iOS: San Francisco
+
+Use
+<OnPlatform x:Key="RegularFontFamily" x:TypeArguments="x:String" iOS="HelveticaNeue" Android="sans-serif" WinPhone=""/>
+<OnPlatform x:Key="LightFontFamily" x:TypeArguments="x:String" iOS="HelveticaNeue-Light" Android="sans-serif-light" WinPhone=""/>
+<OnPlatform x:Key="MediumFontFamily" x:TypeArguments="x:String" iOS="HelveticaNeue-Medium" Android="sans-serif-medium" WinPhone=""/>
+
+Use two text colors: white and black depending on light or dark background.  Use opacity to control brightness
+
+Look at Picons.me for icons

@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFFUI.iOS", "EFFUI\EFFUI.iO
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "EFFUI", "EFFUI\EFFUI\EFFUI.shproj", "{257B6B4A-6100-429C-A4C6-C5FB51B95EB9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{25F9C182-5B1C-40D0-BAD5-F8D5A5B33DA5}"
+	ProjectSection(SolutionItems) = preProject
+		DesignNotes.txt = DesignNotes.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		EFFUI\EFFUI\EFFUI.projitems*{257b6b4a-6100-429c-a4c6-c5fb51b95eb9}*SharedItemsImports = 13

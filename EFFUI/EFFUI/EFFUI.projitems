@@ -15,6 +15,11 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)CodePages\SetupPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodePages\ListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodePages\TabPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodePages\Calendar.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodePages\MapPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\Item.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\IDataStore.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\MockDataStore.cs" />

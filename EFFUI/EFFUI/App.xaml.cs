@@ -2,6 +2,7 @@
 using Xamarin.Forms;
 using EFFUI.Views;
 using Xamarin.Forms.Xaml;
+using EFFUI.CodePages;
 
 [assembly: XamlCompilation (XamlCompilationOptions.Compile)]
 namespace EFFUI
@@ -14,7 +15,9 @@ namespace EFFUI
 			InitializeComponent();
 
 
-			MainPage = new MainPage();
+            //MainPage = new MainPage();
+            //MainPage = new MapPage();
+            MainPage = new TabPage();
 		}
 
 		protected override void OnStart ()
