@@ -15,11 +15,19 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)CodePages\SetupPage.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)CodePages\ListPage.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)CodePages\TabPage.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)CodePages\Calendar.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)CodePages\MapPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\BasePage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\CodePages\CheckinPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Common\EntitySearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Common\styles.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\ModalPages\BaseModalPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\CodePages\CRUD\BusinessModal.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\CodePages\CRUD\SearchBusinessModal.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\CodePages\YouPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\CodePages\SetupPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\CodePages\ListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\CodePages\TabPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\CodePages\Calendar.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\CodePages\MapPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\Item.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\IDataStore.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\MockDataStore.cs" />
@@ -61,5 +69,8 @@
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\NewItemPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Pages\CodePages\CRUD\" />
   </ItemGroup>
 </Project>

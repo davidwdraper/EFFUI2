@@ -6,7 +6,7 @@ using Xamarin.Forms.Maps;
 
 namespace EFFUI.CodePages
 {
-    public class MapPage : ContentPage
+    public class MapPage : BasePage
     {
         public MapPage()
         {
@@ -15,7 +15,7 @@ namespace EFFUI.CodePages
                 MapSpan.FromCenterAndRadius(position, Distance.FromMiles(0.3)))
             {
                 IsShowingUser = true,
-                HeightRequest = 100,
+                HeightRequest = 1200,
                 WidthRequest = 960,
                 VerticalOptions = LayoutOptions.FillAndExpand,
             };
@@ -32,9 +32,8 @@ namespace EFFUI.CodePages
             var pin4 = new Pin { Position = new Position(27.83541, -82.83459), Label = "Hooters", Type = PinType.SearchResult };
             map.Pins.Add(pin4);
 
-            var stack = new StackLayout { Spacing = 0 };
-            stack.Children.Add(map);
-            Content = stack;
+            Content = map;
+
             Title = "MAP";
         }
     }

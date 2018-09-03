@@ -13,6 +13,7 @@ namespace EFFUI.CodePages
             Children.Add(new MapPage());
             Children.Add(new CalendarPage());
             Children.Add(new ListPage());
+            Children.Add(new CheckInPage());
             Children.Add(new SetupPage());
         }
     }

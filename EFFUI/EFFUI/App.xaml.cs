@@ -17,7 +17,7 @@ namespace EFFUI
 
             //MainPage = new MainPage();
             //MainPage = new MapPage();
-            MainPage = new TabPage();
+            MainPage = new TabPage { Padding = new Thickness(0, 40, 0, 0) };
 		}
 
 		protected override void OnStart ()
